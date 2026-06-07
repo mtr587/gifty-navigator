@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Finder Quiz — Find the Perfect Gift in 5 Questions | Gifty Navigator</title>
+  <meta name="description" content="Answer 5 quick questions about your recipient and we'll recommend gifts that actually match what they want. No more returned gifts.">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span>🎁</span> Gifty Navigator</a>
+    <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#occasions">Occasions</a></li>
+      <li><a href="index.html#mismatch">Gift Mismatch</a></li>
+      <li><a href="quiz.html" class="active">🎯 Gift Finder</a></li>
+      <li><a href="report.html">📊 Report</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="index.html">Home</a> › <span>Gift Finder Quiz</span>
+</div>
+
+<section class="occasion-hero">
+  <div class="occasion-hero-inner">
+    <span class="hero-emoji">🎯</span>
+    <h1>The Gift Finder Quiz</h1>
+    <p style="font-size:1.1rem;">5 questions. 30 seconds. A gift they'll actually want.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="quiz-container">
+    <div class="quiz-progress"><div class="quiz-progress-bar" style="width:20%;"></div></div>
+
+    <!-- Step 1 -->
+    <div class="quiz-step active">
+      <h3>Who is the gift for?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option"><span class="quiz-option-emoji">👨</span> My partner / spouse</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">👩‍👧</span> A family member</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🧑‍🤝‍🧑</span> A close friend</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">💼</span> A coworker or acquaintance</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🎉</span> It's for a party / Secret Santa</div>
+      </div>
+      <div class="quiz-nav">
+        <div></div>
+        <button class="btn btn-primary quiz-next">Next →</button>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="quiz-step">
+      <h3>What's the occasion?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option"><span class="quiz-option-emoji">🎄</span> Christmas / Holiday</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🎂</span> Birthday</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">💝</span> Valentine's / Romantic</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">💒</span> Wedding / Baby Shower</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">✨</span> Just because / Thank you</div>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-outline quiz-back">← Back</button>
+        <button class="btn btn-primary quiz-next">Next →</button>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="quiz-step">
+      <h3>How would you describe the recipient?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option"><span class="quiz-option-emoji">🏕️</span> Adventurous & outdoorsy</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🛋️</span> Cozy homebody</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🤖</span> Tech & gadget lover</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🍜</span> Food & drink enthusiast</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🎨</span> Creative & artistic</div>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-outline quiz-back">← Back</button>
+        <button class="btn btn-primary quiz-next">Next →</button>
+      </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="quiz-step">
+      <h3>What's your budget?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option"><span class="quiz-option-emoji">💵</span> Under $25</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">💵💵</span> $25 – $50</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">💵💵💵</span> $50 – $100</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">💎</span> $100 – $200</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">👑</span> $200+ (go big!)</div>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-outline quiz-back">← Back</button>
+        <button class="btn btn-primary quiz-next">Next →</button>
+      </div>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="quiz-step">
+      <h3>What matters most for this gift?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option"><span class="quiz-option-emoji">🎯</span> Practicality — they should actually use it</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">😭</span> Sentimental value — make them feel something</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">🌟</span> Uniqueness — something they'd never buy themselves</div>
+        <div class="quiz-option"><span class="quiz-option-emoji">✨</span> Experience — create a memory, not clutter</div>
+      </div>
+      <div class="quiz-nav">
+        <button class="btn btn-outline quiz-back">← Back</button>
+        <button class="btn btn-primary quiz-next">Show My Results 🎉</button>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div class="quiz-result">
+      <!-- Filled dynamically -->
+    </div>
+  </div>
+</section>
+
+<!-- How It Works -->
+<section class="section" style="background:#fafafa;max-width:100%;">
+  <div style="max-width:800px;margin:0 auto;">
+    <div class="section-header">
+      <h2>How This Works</h2>
+      <p>We don't guess. We use data from thousands of gift recipients.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;">
+      <div style="text-align:center;padding:1.5rem;">
+        <div style="font-size:2.5rem;margin-bottom:0.5rem;">📊</div>
+        <h4>Survey Data</h4>
+        <p style="font-size:0.9rem;">NRF, Gallup, YouGov surveys of actual gift recipients</p>
+      </div>
+      <div style="text-align:center;padding:1.5rem;">
+        <div style="font-size:2.5rem;margin-bottom:0.5rem;">🔍</div>
+        <h4>Mismatch Analysis</h4>
+        <p style="font-size:0.9rem;">We cross-reference what givers buy vs. what receivers want</p>
+      </div>
+      <div style="text-align:center;padding:1.5rem;">
+        <div style="font-size:2.5rem;margin-bottom:0.5rem;">🎯</div>
+        <h4>Smart Matching</h4>
+        <p style="font-size:0.9rem;">Your answers + our data = a gift they'll actually keep</p>
+      </div>
+      <div style="text-align:center;padding:1.5rem;">
+        <div style="font-size:2.5rem;margin-bottom:0.5rem;">⚠️</div>
+        <h4>Avoid Warnings</h4>
+        <p style="font-size:0.9rem;">Every recommendation comes with what NOT to buy</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <h4>🎁 Gifty Navigator</h4>
+      <p>Data-driven gift recommendations. As an Amazon Associate we earn from qualifying purchases.</p>
+    </div>
+    <div>
+      <h4>Occasions</h4>
+      <ul>
+        <li><a href="occasions/christmas.html">Christmas</a></li>
+        <li><a href="occasions/birthday.html">Birthday</a></li>
+        <li><a href="occasions/mothers-day.html">Mother's Day</a></li>
+        <li><a href="occasions/fathers-day.html">Father's Day</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="report.html">Gift Report 2026</a></li>
+        <li><a href="quiz.html">Gift Finder Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Gifty Navigator. | <a href="#" style="color:#b2bec3;">Affiliate Disclosure</a></p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

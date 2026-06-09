@@ -1,5 +1,7 @@
 # 🎁 Gifty Navigator
 
+🌐 **Live Site:** [https://mtr587.github.io/gifty-navigator/](https://mtr587.github.io/gifty-navigator/)
+
 **Data-Driven Gift Recommendations** — Stop guessing what to give. We study what Americans actually give vs. what they actually want, so you can give gifts that land.
 
 ## About

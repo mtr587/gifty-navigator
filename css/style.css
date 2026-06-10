@@ -353,7 +353,7 @@ a:hover { color: var(--primary-dark); }
   background: #f0faf5; padding: 0.6rem 0.75rem; border-radius: 6px; 
   font-size: 0.8rem; margin-bottom: 1rem; border-left: 3px solid var(--success);
   line-height: 1.55;
-  min-height: 5.6rem;
+  min-height: 7.4rem;
 }
 .product-why strong { color: var(--success); }
 .btn-buy {

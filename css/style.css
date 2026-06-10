@@ -5,6 +5,7 @@
   --secondary: #3a6b8c;
   --accent: #f4a261;
   --bg: #fefbf6;
+  --bg-alt: #fafafa;
   --bg-card: #ffffff;
   --text: #2d3436;
   --text-light: #636e72;
@@ -224,7 +225,31 @@ a:hover { color: var(--primary-dark); }
   margin-top: 0.3rem;
 }
 
-/* ===== Section Common ===== */
+/* ===== Browse Cards ===== */
+.browse-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+.browse-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+}
+.browse-card-icon { font-size: 2rem; }
+.browse-card-text strong { display: block; }
+.browse-card-text span { font-size: 0.85rem; color: var(--text-light); }
+
+/* ===== Section Alt ===== */
+.section-alt { background: var(--bg-alt); max-width: 100%; padding: 5rem 1.5rem; }
 .section {
   max-width: var(--max-width);
   margin: 0 auto;

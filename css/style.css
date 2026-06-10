@@ -314,7 +314,7 @@ a:hover { color: var(--primary-dark); }
 /* ===== Product Cards ===== */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 .product-card {
@@ -346,7 +346,7 @@ a:hover { color: var(--primary-dark); }
   object-fit: contain;
 }
 .product-body { padding: 1.25rem; display: flex; flex-direction: column; flex: 1; }
-.product-title { font-weight: 600; font-size: 1.05rem; margin-bottom: 0.3rem; }
+.product-title { font-weight: 600; font-size: 1.05rem; margin-bottom: 0.3rem; min-height: 2.6rem; }
 .product-price { color: var(--primary); font-weight: 700; font-size: 1.15rem; margin-bottom: 0.5rem; }
 .product-desc { font-size: 0.85rem; color: var(--text-light); margin-bottom: 1rem; line-height: 1.5; flex: 1; }
 .product-why { 

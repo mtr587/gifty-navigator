@@ -352,7 +352,8 @@ a:hover { color: var(--primary-dark); }
 .product-why { 
   background: #f0faf5; padding: 0.6rem 0.75rem; border-radius: 6px; 
   font-size: 0.8rem; margin-bottom: 1rem; border-left: 3px solid var(--success);
-  min-height: 3.8rem;
+  line-height: 1.55;
+  min-height: 5.6rem;
 }
 .product-why strong { color: var(--success); }
 .btn-buy {

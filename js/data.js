@@ -21,7 +21,6 @@ const GIFT_DATA = {
     { id: "housewarming", emoji: "🏠", name: "Housewarming", spend: "$20-50", spendLabel: "typical", color: "#e67e22", season: "year-round", slug: "housewarming" },
     { id: "graduation", emoji: "🎓", name: "Graduation", spend: "$25-200", spendLabel: "varies", color: "#2c3e50", season: "spring", slug: "graduation" },
     { id: "retirement", emoji: "🏖️", name: "Retirement", spend: "$30-200", spendLabel: "group gifts common", color: "#27ae60", season: "year-round", slug: "retirement" },
-    { id: "thanksgiving", emoji: "🍂", name: "Thanksgiving Host", spend: "$15-35", spendLabel: "host gift", color: "#d35400", season: "fall", slug: "thanksgiving" },
     { id: "easter", emoji: "🐰", name: "Easter", spend: "$177", spendLabel: "per family", color: "#8e44ad", season: "spring", slug: "easter" },
     { id: "corporate", emoji: "🏢", name: "Office Gifts", spend: "$15-35", spendLabel: "Secret Santa", color: "#7f8c8d", season: "year-round", slug: "corporate-gifts" },
     { id: "just-because", emoji: "✨", name: "Just Because", spend: "$10-40", spendLabel: "thoughtful gesture", color: "#fdcb6e", season: "year-round", slug: "just-because" }

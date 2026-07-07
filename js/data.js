@@ -22,8 +22,7 @@ const GIFT_DATA = {
     { id: "graduation", emoji: "🎓", name: "Graduation", spend: "$25-200", spendLabel: "varies", color: "#2c3e50", season: "spring", slug: "graduation" },
     { id: "retirement", emoji: "🏖️", name: "Retirement", spend: "$30-200", spendLabel: "group gifts common", color: "#27ae60", season: "year-round", slug: "retirement" },
     { id: "easter", emoji: "🐰", name: "Easter", spend: "$177", spendLabel: "per family", color: "#8e44ad", season: "spring", slug: "easter" },
-    { id: "corporate", emoji: "🏢", name: "Office Gifts", spend: "$15-35", spendLabel: "Secret Santa", color: "#7f8c8d", season: "year-round", slug: "corporate-gifts" },
-    { id: "just-because", emoji: "✨", name: "Just Because", spend: "$10-40", spendLabel: "thoughtful gesture", color: "#fdcb6e", season: "year-round", slug: "just-because" }
+    { id: "corporate", emoji: "🏢", name: "Office Gifts", spend: "$15-35", spendLabel: "Secret Santa", color: "#7f8c8d", season: "year-round", slug: "corporate-gifts" }
   ],
 
   // Detailed mismatch data per occasion
